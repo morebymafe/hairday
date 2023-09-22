@@ -1,0 +1,63 @@
+body{
+    margin: 3em;
+    font-family: 'Nunito Sans';
+    background-color: rgb(241, 241, 241);
+}
+
+header{
+    text-align: center;
+}
+#logo{
+    width: 10em;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgb(26, 26, 26);
+}
+li{
+    list-style-type: none;
+}
+.link{
+    color: #D0604C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img-banner{
+    padding: 1em 0;
+    width: 100%;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 1em 1em;
+}
+
+article{
+    background-color: #ffd3cb;
+    text-align: justify;
+    padding: 1em;
+}
+.icon{
+    width: 80px;
+}
+
+footer{
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin: 50px 0px 0px 0px;
+}
+#footer-image{
+    width: 150px;
+}
